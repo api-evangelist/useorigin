@@ -1,19 +1,46 @@
 aid: useorigin
-name: Useorigin
-description: Useorigin is a company surfaced as a portfolio company of felicis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Origin Financial
+description: Origin (Blend Financial Inc. DBA Origin Financial) is a personal finance
+  platform built around an SEC-regulated AI financial advisor, combining spending
+  tracking, budgeting, investing, tax filing, estate planning, and couples money
+  management in one app, and offering employers a financial wellness benefit. Account
+  connections run through partners including Plaid, MX, and Mastercard. Origin is
+  a consumer and employer product with no public developer API surface today.
 url: https://raw.githubusercontent.com/api-evangelist/useorigin/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/68acbc076b672f730e0c77b9/68da67a91d421250bd53d4f1_useorigin_icon_256.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - felicis
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fintech
+- Personal Finance
+- Financial Planning
+- AI Advisor
+- Investing
+- Employee Benefits
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,25 @@ maintainers:
 common:
 - type: Website
   url: https://useorigin.com
+- type: Blog
+  url: https://useorigin.com/resources
+- type: Support
+  url: https://useoriginsupport.zendesk.com/hc/en-us
+- type: SignUp
+  url: https://app.useorigin.com/sign-up
+- type: Login
+  url: https://app.useorigin.com/authentication/login
+- type: TermsOfService
+  url: https://useorigin.com/legal/terms-conditions
+- type: PrivacyPolicy
+  url: https://useorigin.com/legal/privacy-policy
+- type: TrustCenter
+  url: security/useorigin-trust-center.yml
+- type: Compliance
+  url: https://trust.useorigin.com/
+- type: Conformance
+  url: conformance/useorigin-conformance.yml
+- type: LLMsTxt
+  url: llms/useorigin-llms.txt
+- type: DomainSecurity
+  url: security/useorigin-domain-security.yml

@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+url: https://trust.useorigin.com/
+platform: vanta
+title: Origin Financial Trust Center
+certifications:
+- SOC 2 Type II
+notes: Trust center is Vanta-hosted and JS-rendered, so the on-page certification
+  list is not machine-readable from static HTML. SOC 2 Type II certification and
+  GDPR/CCPA compliance are stated in Origin's own published technical overview.
+evidence:
+- source: https://trust.useorigin.com/
+  kind: trust-center
+  detail: Vanta-hosted trust portal, HTTP 200, page title "Origin Financial Trust
+    Center"
+- source: https://useorigin.com/resources/blog/technical-overview
+  kind: docs
+  detail: '"SOC2 Type II certified"; "SOC 2 certified, GDPR/CCPA compliant"; "TLS
+    1.3 in transit, AES-256-GCM at rest with AWS KMS envelope keys"'

@@ -1,0 +1,59 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of useorigin.com, app.useorigin.com, api.useorigin.com
+notes: No genuine /.well-known/ documents found. app.useorigin.com returns a soft
+  200 (SPA catch-all serving the text/html app shell, 18,512 bytes, for every path)
+  rather than the requested documents; those are recorded as present false. The
+  provider does publish /llms.txt on the apex host (captured in llms/).
+hosts:
+- host: https://useorigin.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://app.useorigin.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    soft_200: true
+    content_type: text/html
+    present: false
+  - path: /.well-known/openid-configuration
+    status: 200
+    soft_200: true
+    content_type: text/html
+    present: false
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    soft_200: true
+    content_type: text/html
+    present: false
+  - path: /.well-known/api-catalog
+    status: 200
+    soft_200: true
+    content_type: text/html
+    present: false
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    soft_200: true
+    content_type: text/html
+    present: false
+- host: https://api.useorigin.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404

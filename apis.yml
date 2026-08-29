@@ -7,6 +7,17 @@ description: Origin (Blend Financial Inc. DBA Origin Financial) is a personal fi
   connections run through partners including Plaid, MX, and Mastercard. Origin is
   a consumer and employer product with no public developer API surface today.
 url: https://raw.githubusercontent.com/api-evangelist/useorigin/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown

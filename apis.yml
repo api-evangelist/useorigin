@@ -1,11 +1,10 @@
 aid: useorigin
 name: Origin Financial
-description: Origin (Blend Financial Inc. DBA Origin Financial) is a personal finance
-  platform built around an SEC-regulated AI financial advisor, combining spending
-  tracking, budgeting, investing, tax filing, estate planning, and couples money
-  management in one app, and offering employers a financial wellness benefit. Account
-  connections run through partners including Plaid, MX, and Mastercard. Origin is
-  a consumer and employer product with no public developer API surface today.
+description: Origin (Blend Financial Inc. DBA Origin Financial) is a personal finance platform built around an SEC-regulated
+  AI financial advisor, combining spending tracking, budgeting, investing, tax filing, estate planning, and couples
+  money management in one app, and offering employers a financial wellness benefit. Account connections run through
+  partners including Plaid, MX, and Mastercard. Origin is a consumer and employer product with no public developer
+  API surface today.
 url: https://raw.githubusercontent.com/api-evangelist/useorigin/refs/heads/main/apis.yml
 deliveryModel:
   model: saas
@@ -83,3 +82,5 @@ common:
   url: llms/useorigin-llms.txt
 - type: DomainSecurity
   url: security/useorigin-domain-security.yml
+- type: Blog
+  url: https://useorigin.com/resources/blog
